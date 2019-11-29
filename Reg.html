@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <enter-form></enter-form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.js"></script>
+    <script>
+        Vue.component('enter-form', {
+            template: `
+            <form action="" class = "enterForm">
+                <figure><h1>RG</h1></figure>
+                <label for="login">Enter Login</label>
+                <input type="text" class = "login">
+                <label for="pass">Enter Password</label>
+                <input type="text" class= "pass">
+                <button>Enter</button>
+            </form>
+            `
+        })
+        var vm = new Vue({
+            el: "#app",
+        })
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet"');
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #5aa8c0; }
+
+.enterForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  width: 500px;
+  height: 700px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px; }
+  .enterForm figure {
+    width: 150px;
+    height: 150px;
+    background-image: url("/Users/Montage/Documents/Reg/img/enterLogo.jpg");
+    background-size: cover;
+    font-size: 60px;
+    color: #ffe600; }
+    .enterForm figure h1 {
+      margin-top: -100px; }
+  .enterForm input {
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 10px;
+    outline: none; }
+  .enterForm label {
+    margin-top: 20px; }
+  .enterForm button {
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffe600;
+    background-color: black;
+    border: none; }
